@@ -1,4 +1,4 @@
-# Spptify Top Hits Uncovering Trends And-Patterns
+# Spptify Top Hits Uncovering Trends And Patterns
 
 <img src='https://respontodo.com/wp-content/uploads/2021/11/1-spotify-code.png' style='width:80%; margin:0 auto;'>
 
