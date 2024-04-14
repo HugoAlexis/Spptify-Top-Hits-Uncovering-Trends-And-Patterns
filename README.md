@@ -43,19 +43,45 @@ The dataset used in this notebook contains a list of the 953 most streamed songs
 
 ![](figures/songs_by_date.jpg)
 
+The released year of the most popular spotify songs ranges from 1930 to 2023. However, almost 9 out of 10 of these popular songs are from the last 10 years (88.5%). January and May are the months with most popular songs. Also, the 1st day of the month seems to have a high number of popular songs (possibly, artists tend to release their music on the first day of the month).
+
 ## <span style='color:#17202a;font-weight:bold;font-size:80%; background: rgba(38, 230, 57, 0.4); padding: 5px 50px; border-radius:5px;'>>>> Artists with most popular songs</span>
+
+![](figures/popular_artists.jpg)
+
+All the oldest popular songs in spotify (released before 1960) seems to be about christmas (except the first one from 1930).
 
 ## <span style='color:#17202a;font-weight:bold;font-size:80%; background: rgba(38, 230, 57, 0.4); padding: 5px 50px; border-radius:5px;'>>>> Songs with the highest number of artists</span>
 
+![](figures/most_artists.png)
+
+Bad Bunny dominates Spotify's popular songs list with an impressive 40 songs! Taylor Swift and The Weeknd follow closely behind with 38 and 37 songs, respectively. A high gap of 14 splits the third and fourth places. 
+
 ## <span style='color:#17202a;font-weight:bold;font-size:80%; background: rgba(38, 230, 57, 0.4); padding: 5px 50px; border-radius:5px;'>>>>Top tracks by the number of playlists they're included in</span>
+
+![](figures/top_by_playlists.jpg)
+
+Smells Like Teen Spirit is the track included in most playlist (across all 3 platforms) wich more than 60 thousand, followed by Get Lucky (Daft Punk), also with more than 60 thusands. The rest of the top 5 are: Wake Me Up (Avicci), Mr. Bridgestone (The killers), Take on Me (a-Ha).
+​
+There is a huge gap between the number of playlists including the tracks in Spotify and the other two platforms (Apple Music and Deezer).
 
 ## <span style='color:#17202a;font-weight:bold;font-size:80%; background: rgba(38, 230, 57, 0.4); padding: 5px 50px; border-radius:5px;'>>>> Top tracks by total streams</span>
 
+![](figures/top_by_streams.jpg)
+
+The top list of tracks by the total number of streams is completely different from the top of tracks by the total playlists they're included in.
+
+Blinding Lights (by The Weekend) leads this top with more than 3.7 Billions, followed by Shape of You with more than 3.63 Billions of streams. Only the top 2 songs have more than 3 millions of streams. The next tracks in the top are Someone you Loved by Lewis Capeldi (2.887 Billions), Dance Monkey by Tones and I (2.865 Billions) and Sunflower - Spider Man by Post Malone and Swae Lee (2.808 billions). 
+
 ## <span style='color:#17202a;font-weight:bold;font-size:80%; background: rgba(38, 230, 57, 0.4); padding: 5px 50px; border-radius:5px;'>>>> Trends on danceability, valence, ...</span>
+
+![](figures/audio_features.jpg)
 
 * Popular songs on Spotify typically favor high danceability (less suitable for dancing).
 * They also lean towards lower energy levels.
 * While the positivity (valence) varies across popular songs, there's no clear preference for a specific range. Similarly, acousticness can be all over the map.
 * Interestingly, popular songs tend to have vocals (not instrumental), are typically studio recordings (low liveness), and have minimal spoken word content (low speechness).
+
+![](audio_features_corr.jpg)
 
 Songs with a focus on acoustic instruments typically have lower energy levels and are less danceable. In contrast, dance music is characterized by high energy, positive emotions (high valence), and minimal use of acoustic instruments (low acousticness). Also, positive songs (high valance) have also high energy.
