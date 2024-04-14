@@ -49,13 +49,13 @@ The released year of the most popular spotify songs ranges from 1930 to 2023. Ho
 
 ![](figures/popular_artists.jpg)
 
-All the oldest popular songs in spotify (released before 1960) seems to be about christmas (except the first one from 1930).
+Bad Bunny dominates Spotify's popular songs list with an impressive 40 songs! Taylor Swift and The Weeknd follow closely behind with 38 and 37 songs, respectively. A high gap of 14 splits the third and fourth places. 
 
 ## <span style='color:#17202a;font-weight:bold;font-size:80%; background: rgba(38, 230, 57, 0.4); padding: 5px 50px; border-radius:5px;'>>>> Songs with the highest number of artists</span>
 
 ![](figures/most_artists.png)
 
-Bad Bunny dominates Spotify's popular songs list with an impressive 40 songs! Taylor Swift and The Weeknd follow closely behind with 38 and 37 songs, respectively. A high gap of 14 splits the third and fourth places. 
+All the oldest popular songs in spotify (released before 1960) seems to be about christmas (except the first one from 1930).
 
 ## <span style='color:#17202a;font-weight:bold;font-size:80%; background: rgba(38, 230, 57, 0.4); padding: 5px 50px; border-radius:5px;'>>>>Top tracks by the number of playlists they're included in</span>
 
